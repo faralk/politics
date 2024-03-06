@@ -34,11 +34,11 @@ first_model <-
     seed = 853
   )
 
+prior_summary(first_model)
 
 #### Save model ####
 saveRDS(
   first_model,
   file = "models/first_model.rds"
 )
-
 
